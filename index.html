@@ -17,6 +17,7 @@
 <script > 
 
 const comprar = () => alert("El producto se ha agregado a su carrito");
+const agotado = () => alert("El producto se encuentra agotado");
 const regalar  = () => alert("Se ha agregado el producto a su lista de regalos");
 
 ;
@@ -84,6 +85,39 @@ const regalar  = () => alert("Se ha agregado el producto a su lista de regalos")
                                 <button type="button" onclick="regalar()" class="btn btn-sm btn-outline-secondary">Regalo</button>
                                 </div>
                                 <small class="text-muted">$ 500</small>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <p class="card-text">Piedras de colores en colores crema y oscuros</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                <button type="button" onclick="comprar()" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                <button type="button" onclick="regalar()" class="btn btn-sm btn-outline-secondary">Regalo</button>
+                                </div>
+                                <small class="text-muted">$ 100</small>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+                            <div class="card-body">
+                            <p class="card-text">Caracoles </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                <button type="button" onclick="Agotado()" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                                <button type="button" onclick="regalar()" class="btn btn-sm btn-outline-secondary">Regalo</button>
+                                </div>
+                                <small class="text-muted"> Agotado</small>
                             </div>
                             </div>
                         </div>
